@@ -24,6 +24,10 @@ x ['Vehicle_Age > 1 Year'] = x ['Vehicle_Age_1-2 Year'] + x ['Vehicle_Age_> 2 Ye
 
 * The multicollinearity from the features is removed by keeping the VIF value as low  as possible.
 
+* The data has been scaled to improve the model performance  using MinMaxScaler.
+
+* Some of the features in our dataset are highly imbalanced,hence to avoid this error, the dataset is balanced using technique called SMOTE(Synthetic Minority Oversampling Technique)
+
 
 # Machine Learning Models Used 
 
